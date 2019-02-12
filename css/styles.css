@@ -1,0 +1,70 @@
+.maintable{
+  display: flex;
+  align-items: stretch;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.column {
+  display:flex;
+  flex-direction: column;
+  flex-basis: 100%;
+  flex: 1;
+}
+
+.blueTable {
+  background-color: pink;
+  height: 100px;
+}
+
+.redTable {
+  background-color: green;
+  height: 96px;
+  width:
+}
+
+.header {
+  height: 96px;
+  background-color: lightblue;
+  width: 100%;
+}
+
+
+ul {
+  background-color: lightblue;
+  padding: 2px;
+  text-align: center;
+}
+
+ul li {
+  display: inline-block;
+  /* padding: 10px; */
+}
+ul li:not(:last-child):after {
+  content: "|";
+}
+
+.rightName {
+  border: 1px solid black;
+  text-align: center;
+}
+
+.latestBlog {
+  margin: 5px 0px;
+}
+
+.entries {
+  padding: 5px;
+  margin-bottom: 10px;
+}
+.panel {
+  border-radius: 0px;
+}
+.panel-body {
+  color: blue;
+}
